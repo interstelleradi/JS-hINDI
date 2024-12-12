@@ -13,7 +13,14 @@
 // "33abc"  => Nan
 //  true  => 1, False  => 0
 
-let isLoggedIn = 1
+//node basics_01/03_conversionOperation.js
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+//let isLoggedIn = 1
+
+//let booleanIsLoggedIn = Boolean(isLoggedIn)
+//console.log(booleanIsLoggedIn);
+
+let someNumber = 33 
+
+let stringNumber = String(someNumber)
+console.log(typeof stringNumber);
